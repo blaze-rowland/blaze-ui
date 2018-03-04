@@ -1,0 +1,193 @@
+// Container for Content
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+// Displays content inline
+.inline {
+  display: inline;
+}
+
+// Displays all children inline
+.inline-child *{
+  display: inline;
+}
+
+// Display content inline-block
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+// For Description of Topic
+.description {
+  background: darken($off-white, 5%);
+  @include border-radius(2px);
+  padding: 10px 10px;
+}
+
+// Makes Width of Container contained to Content
+.contained {
+  display: inline-block;
+
+  &:nth-child(n) {
+    width: fit-content;
+  }
+}
+
+// Displays Code on-screen
+xmp {
+  background: $off-white;
+  padding: 3px 8px;
+}
+
+// Margins
+.m-25 {
+  margin: 25px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mr-25 {
+  margin-right: 25px;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+
+.m-50 {
+  margin: 50px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mr-50 {
+  margin-right: 50px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+// End Margins
+
+// A Horizontal Rule with Top & Bottom Margins
+.section-hr {
+  margin: 20px 0;
+}
+
+.visible-text {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 15px;
+}
+
+
+// Colors
+.success-inverse {
+  background: #fff;
+  border-color: $success;
+  color: $success;
+
+  &:hover {
+    background-color: $success;
+    color: #fff;
+  }
+}
+.warning-inverse {
+  background: #fff;
+  border-color: $warning;
+  color: $warning;
+
+  &:hover {
+    background-color: $warning;
+    color: #fff;
+  }
+}
+.failure-inverse {
+  background: #fff;
+  border-color: $failure;
+  color: $failure;
+
+  &:hover {
+    background-color: $failure;
+    color: #fff;
+  }
+}
+.info-inverse {
+  background: #fff;
+  border-color: $info;
+  color: $info;
+
+  &:hover {
+    background-color: $info;
+    color: #fff;
+  }
+}
+
+// Colors Inverse
+.success {
+  background: $success;
+  border-color: $success;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: $success;
+  }
+}
+.failure {
+  background: $failure;
+  border-color: $failure;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: $failure;
+  }
+}
+.info {
+  background: $info;
+  border-color: $info;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: $info;
+  }
+}
+.warning {
+  background: $warning;
+  border-color: $warning;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: $warning;
+  }
+}

@@ -1,0 +1,24 @@
+.btn {
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 4px 10px;
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #000;
+    color: #fff;;
+  }
+}
+
+.btn-lg {
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 1.1em;
+  padding: 8px 18px;
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}

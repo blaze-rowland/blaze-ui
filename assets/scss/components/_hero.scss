@@ -1,0 +1,19 @@
+#hero {
+  background: coral;
+  background-image: url('../img/bg/hero.png');
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  padding-top: 23rem;
+  padding-bottom: 23rem;
+  width: 100%;
+
+  .hero-text {
+    color: white;
+    font-size: 6em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.09);
+    text-transform: uppercase;
+  }
+}
