@@ -5,7 +5,7 @@
 
 >Blaze-UI is a light-weight structural framework with plenty of helpers and components to quickly structure your next application. My goal was to create something that not only would I want to use, but would be easy to remember, learn and build on top of. Other frameworks take a lot of back-and-forth between the documentation and developing; I'm confident that with Blaze-UI that won't be the case. Do things yourself; I encourage using this as a structure, so build upon it. No two sites should look the same when using this.
 >
-> Before we begin; this is not meant to be a replacement for frameworks like Bootstrap, Semantic, Foundation, etc. I wanted to create this for a structure, but that seemed to plain. So, I've included some useful helpers and components to get your project off the ground quickly and easily.
+> Before we begin; this is not meant to be a replacement for frameworks like Bootstrap, Semantic, Foundation, etc. I wanted to create this for structure, but that seemed to plain. So, I've included some useful helpers and components to get your project off the ground quickly and easily.
 
 
 ----
@@ -24,8 +24,9 @@
 * [JavaScript](#)
 
 ----
+
 ## Documentation
-**Navigation:**
+[**Navigation:**](#navigation)
 
    **Regular Navbar:**
 
@@ -71,7 +72,7 @@
 ----------
 
 
-**Buttons:**
+[**Buttons:**](#buttons)
 
     <a href="" class="btn"></a> -- Standard Button
     <a href="" class="btn success"></a> -- Button w/ Success Color
@@ -83,7 +84,7 @@
 ----------
 
 
-**Section HR:**
+[**Section HR:**](#section-hr)
 
     <hr class="section-hr">
 
@@ -92,7 +93,7 @@
 ----------
 
 
-**Cover Loader:**
+[**Cover Loader:**](#cover)
 
     <div id="cover"><div class="loader"></div> Loading...</div>
 
@@ -101,7 +102,7 @@
 ----------
 
 
-**Card:**
+[**Card:**](#card)
 
     <div class="card">
       <h3>Title</h3>
@@ -159,7 +160,7 @@
 
 
 ----------
-**Hero:**
+[**Hero:**](#hero)
 
     <section id="hero">
       <p class="hero-text visible-text text-center">
@@ -191,15 +192,47 @@
 
 
 ----------
-**Colors:**
+[**Colors:**](#colors)
 
  - success | success-inverse
  - failure | failure-inverse
  - info | info-inverse
  - warning | warning-inverse
 
+
 ----------
-**Helpers**
+[**Grid**](#grid)
+>Highly Recommended That You Do NOT Use This. Create Your Own with CSS Grid. (This is using flex-box)
+
+    <div class="flex-grid">
+      <div class="col">
+        <h5>I'm Column One!</h5>
+      </div>
+      <div class="col">
+        <h5>I'm Column Two!</h5>
+      </div>
+      <div class="col">
+        <h5>I'm Column Three!</h5>
+      </div>
+     <div class="col">
+       <h5>I'm Column Four!</h5>
+     </div>
+    </div>
+
+    <div class="flex-grid-thirds"> -- Uses: justify-content: space-between; & .col = 32%;
+	     <div class="col">
+	       <h5>I'm Column One!</h5>
+	     </div>
+	     <div class="col">
+	       <h5>I'm Column Two!</h5>
+	     </div>
+	     <div class="col">
+	       <h5>I'm Column Three!</h5>
+	     </div>
+     </div>
+
+----------
+[**Helpers**](#helpers)
 
     <div class="container"></div> -- 70% Width | 0 Auto Margin
 

@@ -5,4 +5,4 @@ keep
 package-lock.json
 package.json
 index.html
-documentation.html
+examples.html
