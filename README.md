@@ -25,8 +25,9 @@
 
 ----
 
-## Documentation
-[**Navigation:**](#navigation)
+
+# Documentation
+## Navigation
 
    **Regular Navbar:**
 
@@ -72,7 +73,7 @@
 ----------
 
 
-[**Buttons:**](#buttons)
+## Buttons
 
     <a href="" class="btn"></a> -- Standard Button
     <a href="" class="btn success"></a> -- Button w/ Success Color
@@ -84,7 +85,7 @@
 ----------
 
 
-[**Section HR:**](#section-hr)
+## Section-hr
 
     <hr class="section-hr">
 
@@ -93,7 +94,7 @@
 ----------
 
 
-[**Cover Loader:**](#cover)
+## Cover-Loader
 
     <div id="cover"><div class="loader"></div> Loading...</div>
 
@@ -102,7 +103,7 @@
 ----------
 
 
-[**Card:**](#card)
+## Cards
 
     <div class="card">
       <h3>Title</h3>
@@ -160,7 +161,7 @@
 
 
 ----------
-[**Hero:**](#hero)
+## Hero
 
     <section id="hero">
       <p class="hero-text visible-text text-center">
@@ -192,7 +193,7 @@
 
 
 ----------
-[**Colors:**](#colors)
+## Colors
 
  - success | success-inverse
  - failure | failure-inverse
@@ -201,7 +202,7 @@
 
 
 ----------
-[**Grid**](#grid)
+## Grid
 >Highly Recommended That You Do NOT Use This. Create Your Own with CSS Grid. (This is using flex-box)
 
     <div class="flex-grid">
@@ -232,7 +233,9 @@
      </div>
 
 ----------
-[**Helpers**](#helpers)
+
+## Helpers
+
 
     <div class="container"></div> -- 70% Width | 0 Auto Margin
 
