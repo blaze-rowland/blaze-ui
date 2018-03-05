@@ -3,7 +3,10 @@
 ----
 ## What is Blaze-UI
 
-> Blaze-UI is a framework built with SASS. This will become more detailed as the repository is built upon including components and helpers.
+>Blaze-UI is a light-weight structural framework with plenty of helpers and components to quickly structure your next application. My goal was to create something that not only would I want to use, but would be easy to remember, learn and build on top of. Other frameworks take a lot of back-and-forth between the documentation and developing; I'm confident that with Blaze-UI that won't be the case. Do things yourself; I encourage using this as a structure, so build upon it. No two sites should look the same when using this.
+>
+> Before we begin; this is not meant to be a replacement for frameworks like Bootstrap, Semantic, Foundation, etc. I wanted to create this for a structure, but that seemed to plain. So, I've included some useful helpers and components to get your project off the ground quickly and easily.
+
 
 ----
 ## Usage
