@@ -13,13 +13,14 @@
   width: 32%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: $break-xs), (max-width: $break-sm) {
   .flex-grid,
   .flex-grid-thirds {
     display: block;
     .col {
       width: 100%;
       margin: 0 0 10px 0;
+      padding: 30px 0;
     }
   }
 }

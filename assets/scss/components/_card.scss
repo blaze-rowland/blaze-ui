@@ -3,6 +3,10 @@
   @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
   @include border-radius(5px);
   width: 415px;
+
+  @media(max-width: $break-xs), (max-width: $break-sm) {
+    width: 300px;
+  }
   .img {
     img {
       border-top-left-radius: 5px;
@@ -10,15 +14,19 @@
       @include box-shadow(0, 3px, 8px, -4px, rgba(0, 0, 0, 0.4));
       height: 225px;
       width: 100%;
+
+      @media(max-width: $break-xs), (max-width: $break-sm) {
+        height: 110px;
+      }
     }
     span {
       background: rgba(0, 0, 0, 0.5);
       color: white;
       font-size: 1.2em;
-      left: 30px;
+      left: 5px;
       padding: 5px 15px;
       position: relative;
-      top: -200px;
+      top: -85px;
     }
   }
   .body {
@@ -27,16 +35,29 @@
     h6 {
       float: left;
       width: 60%;
+
+      @media(max-width: $break-xs), (max-width: $break-sm) {
+        float: none;
+        width: 100%;
+      }
     }
     span {
       color: darken($off-white, 40%);
       margin-top: 8px;
       font-size: .8em;
       float: right;
+
+      @media(max-width: $break-xs), (max-width: $break-sm) {
+        float: none;
+      }
     }
     p {
       clear: both;
       margin-top: 40px;
+
+      @media(max-width: $break-xs), (max-width: $break-sm) {
+        margin-top: 15px;
+      }
     }
   }
 }
@@ -47,8 +68,10 @@
   @include border-radius(5px);
   padding: 20px;
   width: 415px;
-    h3 {
-    }
+
+  @media(max-width: $break-xs), (max-width: $break-sm) {
+    width: 260px;
+  }
     span {
       color: darken($off-white, 40%);
       font-size: .8em;

@@ -7,6 +7,10 @@
   padding: 23rem 0;
   width: 100%;
 
+  @media(max-width: $break-xs), (max-width: $break-sm) {
+    padding: 15rem 0;
+  }
+
   .hero-text {
     color: white;
     font-size: 6em;
@@ -14,13 +18,25 @@
     line-height: 1.2;
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.09);
     text-transform: uppercase;
+
+    @media(max-width: $break-xs), (max-width: $break-sm) {
+      font-size: 3em;
+    }
   }
 }
 
 #hero.medium {
   padding: 13rem 0;
+
+  @media(max-width: $break-xs), (max-width: $break-sm) {
+    padding: 8rem 0;
+  }
 }
 
 #hero.small {
   padding: 8rem 0;
+
+  @media(max-width: $break-xs), (max-width: $break-sm) {
+    padding: 4rem 0;
+  }
 }

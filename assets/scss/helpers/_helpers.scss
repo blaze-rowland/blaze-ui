@@ -2,6 +2,11 @@
 .container {
   margin: 0 auto;
   width: 70%;
+
+  @media(max-width: $break-xs) {
+    margin: 0 auto;
+    width: 95%;
+  }
 }
 
 .classic {
@@ -38,6 +43,10 @@
 
 .block {
   display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .fixed {
@@ -263,3 +272,21 @@ xmp {
   }
 }
 // End Colors Inverse
+
+// Animations
+
+// .slide {
+//   animation: slide 10s linear;
+//   display: block;
+// }
+//
+// @keyframes slide {
+//   0%{ height: 0;}
+//   100%{ height: auto; }
+// }
+
+.slide {
+  display: block;
+}
+
+// End Animations

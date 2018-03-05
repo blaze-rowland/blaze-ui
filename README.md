@@ -22,6 +22,7 @@
 ## Change-log
 * March-3-2018 (Initial Commit)
 * March-4-2018 (Framework Started (not mobile-friendly yet))
+* March-5-2018 (Mobile Support)
 
 ----
 ## What's Used

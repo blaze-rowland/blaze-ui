@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blaze-UI | Examples</title>
   <link rel="stylesheet" href="assets/css/app.css" type="text/css">
-  <script src="assets/js/app.js" type="text/javascript"></script>
-  <script src="assets/js/require.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
 
@@ -28,11 +29,29 @@
   </ul>
 </nav>
 
+<nav id="mobile-nav">
+  <a href="index.html" class="brand-img">
+    <img src="assets/img/logo/logo.svg" alt="">
+  </a>
+  <div class="mobile-dropper float-right">&#x2630;</div>
+
+  <ul class="mobile-nav">
+    <a href="index.html"><li>Home</li></a>
+    <a href="examples.html"><li>Examples</li></a>
+    <a href="https://github.com/blaze-rowland/blaze-ui#documentation" target="_blank"><li>Documentation</li></a>
+  </ul>
+</nav>
+
+
+
+
+
+
 <div class="container mt-25">
   <h1>Examples</h1>
   <p class="description no-effects mt-15 mb-25 w-75">
     Before we begin; this is not meant to be a replacement for frameworks like Bootstrap, Semantic, Foundation, etc. I wanted to create this for a structure, but that seemed to plain. So, I've included some useful helpers and components to get your project off the ground quickly and easily.
-    <a href="#" class="classic">The Documentation</a>.
+    <a href="https://github.com/blaze-rowland/blaze-ui#documentation " target="_blank" class="classic">The Documentation</a>.
   </p>
   **Note: Click Any Heading to Goto That Section of the Docs.
   <div>
@@ -178,5 +197,6 @@
 </div>
 
 
+<script src="assets/js/app.js" type="text/javascript"></script>
 </body>
 </html>
