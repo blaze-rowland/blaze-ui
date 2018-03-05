@@ -7,6 +7,10 @@
 >
 > Before we begin; this is not meant to be a replacement for frameworks like Bootstrap, Semantic, Foundation, etc. I wanted to create this for structure, but that seemed to plain. So, I've included some useful helpers and components to get your project off the ground quickly and easily.
 
+----
+## Demo
+* [Index](https://blaze-rowland.github.io/blaze-ui/index.html)
+* [Examples](https://blaze-rowland.github.io/blaze-ui/index.html)
 
 ----
 ## Usage
@@ -17,6 +21,7 @@
 ----
 ## Change-log
 * March-3-2018 (Initial Commit)
+* March-4-2018 (Framework Started (not mobile-friendly yet))
 
 ----
 ## What's Used
