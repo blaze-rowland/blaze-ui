@@ -4,8 +4,7 @@
   background-position: center;
   background-size: contain;
   height: auto;
-  padding-top: 23rem;
-  padding-bottom: 23rem;
+  padding: 23rem 0;
   width: 100%;
 
   .hero-text {
@@ -16,4 +15,12 @@
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.09);
     text-transform: uppercase;
   }
+}
+
+#hero.medium {
+  padding: 13rem 0;
+}
+
+#hero.small {
+  padding: 8rem 0;
 }

@@ -5,6 +5,16 @@
   margin: 0;
   width: 100%;
 
+  .container {
+    .brand {
+      margin-left: 1px;
+    }
+    .brand-img {
+      margin-left: 1px;
+    }
+  }
+
+
   ul li {
     display: inline-block;
     margin-right: 25px;
@@ -15,6 +25,15 @@
     font-weight: 500;
     margin-left: 25px;
   }
+
+  .brand-img {
+    margin-left: 25px;
+    img {
+      width: 1.6em;
+      height: auto;
+      position: absolute;}
+  }
+
 
   .right {
     float: right;

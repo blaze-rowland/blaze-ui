@@ -1,6 +1,8 @@
 /node_modules
+/assets/img
 how
 keep
 package-lock.json
 package.json
 index.html
+documentation.html

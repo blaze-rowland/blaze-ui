@@ -4,6 +4,23 @@
   width: 70%;
 }
 
+.classic {
+  text-decoration: underline;
+}
+
+.no-effects {
+  @include border-radius(0 !important);
+  @include box-shadow(0, 0, 0, 0, black !important);
+}
+
+.no-border-effect {
+  @include border-radius(0 !important);
+}
+
+.no-box-effect {
+  @include box-shadow(0, 0, 0, 0, black !important);
+}
+
 // Displays content inline
 .inline {
   display: inline;
@@ -39,13 +56,19 @@
   text-align: center;
 }
 
+.bulleted {
+  list-style: disc;
+}
+
 
 
 // For Description of Topic
 .description {
-  background: darken($off-white, 5%);
+  background: $off-white;
   @include border-radius(2px);
-  padding: 10px 10px;
+  @include box-shadow(0, 0, 8px, -5px, rgba(0, 0, 0, 0.8));
+  line-height: 1.6;
+  padding: 15px 13px;
 }
 
 // Makes Width of Container contained to Content
@@ -64,6 +87,22 @@ xmp {
 }
 
 // Margins
+.m-15 {
+  margin: 15px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+
 .m-25 {
   margin: 25px;
 }
@@ -97,6 +136,21 @@ xmp {
 }
 // End Margins
 
+// Widths
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+
+// End Widths
+
+
 // A Horizontal Rule with Top & Bottom Margins
 .section-hr {
   margin: 20px 0;
@@ -109,7 +163,24 @@ xmp {
 
 
 // Colors
-.success-inverse {
+.primary {
+  color: $primary-color;
+}
+
+.success {
+  color: $success;
+}
+.failure {
+  color: $failure;
+}
+.info {
+  color: $info;
+}
+.warning {
+  color: $warning;
+}
+
+.btn.success, .toggle.success {
   background: #fff;
   border-color: $success;
   color: $success;
@@ -119,7 +190,7 @@ xmp {
     color: #fff;
   }
 }
-.warning-inverse {
+.btn.warning, .toggle.warning {
   background: #fff;
   border-color: $warning;
   color: $warning;
@@ -129,7 +200,7 @@ xmp {
     color: #fff;
   }
 }
-.failure-inverse {
+.btn.failure, .toggle.failure {
   background: #fff;
   border-color: $failure;
   color: $failure;
@@ -139,7 +210,7 @@ xmp {
     color: #fff;
   }
 }
-.info-inverse {
+.btn.info, .toggle.info {
   background: #fff;
   border-color: $info;
   color: $info;
@@ -151,43 +222,44 @@ xmp {
 }
 
 // Colors Inverse
-.success {
+.btn.success-inverse, .toggle.success.inverse {
   background: $success;
   border-color: $success;
   color: #fff;
 
   &:hover {
-    background: #fff;
+    background: inherit;
     color: $success;
   }
 }
-.failure {
+.btn.failure-inverse, .toggle.failure-inverse {
   background: $failure;
   border-color: $failure;
   color: #fff;
 
   &:hover {
-    background: #fff;
+    background: inherit;
     color: $failure;
   }
 }
-.info {
+.btn.info-inverse, .toggle.info-inverse {
   background: $info;
   border-color: $info;
   color: #fff;
 
   &:hover {
-    background: #fff;
+    background: inherit;
     color: $info;
   }
 }
-.warning {
+.btn.warning-inverse, .toggle.warning-inverse {
   background: $warning;
   border-color: $warning;
   color: #fff;
 
   &:hover {
-    background: #fff;
+    background: inherit;
     color: $warning;
   }
 }
+// End Colors Inverse
