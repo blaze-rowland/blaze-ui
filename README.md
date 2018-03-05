@@ -10,7 +10,7 @@
 ----
 ## Demo
 * [Index](https://blaze-rowland.github.io/blaze-ui/index.html)
-* [Examples](https://blaze-rowland.github.io/blaze-ui/index.html)
+* [Examples](https://blaze-rowland.github.io/blaze-ui/examples.html)
 
 ----
 ## Usage
