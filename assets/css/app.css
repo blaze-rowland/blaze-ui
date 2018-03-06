@@ -80,10 +80,6 @@
   .contained:nth-child(n) {
     width: fit-content; }
 
-xmp {
-  background: #fafafa;
-  padding: 3px 8px; }
-
 .m-15 {
   margin: 15px; }
 
@@ -160,6 +156,18 @@ xmp {
 .warning {
   color: #f4992e; }
 
+.background-success {
+  background: #0bd932; }
+
+.background-failure {
+  background: #cb442d; }
+
+.background-info {
+  background: #0bd3d9; }
+
+.background-warning {
+  background: #f4992e; }
+
 .btn.success, .toggle.success {
   background: #fff;
   border-color: #0bd932;
@@ -223,9 +231,6 @@ xmp {
   .btn.warning-inverse:hover, .toggle.warning-inverse:hover {
     background: inherit;
     color: #f4992e; }
-
-.slide {
-  display: block; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -384,6 +389,10 @@ a {
   @media (max-width: 414px), (max-width: 768px) {
     #mobile-nav {
       display: block; } }
+  #mobile-nav .brand {
+    margin-left: 25px;
+    font-size: 1.3em;
+    font-weight: 600; }
   #mobile-nav .brand-img {
     margin-left: 25px; }
     #mobile-nav .brand-img img {
@@ -404,6 +413,192 @@ a {
     #mobile-nav .mobile-nav li {
       padding: 5px 0 3px 0; }
 
+.progress {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: white;
+  text-align: right;
+  width: 250px;
+  position: relative; }
+  .progress .progress-75 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 75%; }
+  .progress .progress-50 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 50%; }
+  .progress .progress-25 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 25%; }
+
+.progress-circle {
+  color: black; }
+  .progress-circle span {
+    position: relative;
+    top: 25px;
+    left: 25px; }
+  .progress-circle .progress-success-25 {
+    border: 5px solid #e1e1e1;
+    border-left: 5px solid #0bd932;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-success-50 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #0bd932;
+    border-left: 5px solid #0bd932;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-success-75 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #0bd932;
+    border-left: 5px solid #0bd932;
+    border-right: 5px solid #0bd932;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-success-100 {
+    border: 5px solid #e1e1e1;
+    border: 5px solid #0bd932;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-info-25 {
+    border: 5px solid #e1e1e1;
+    border-left: 5px solid #0bd3d9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-info-50 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #0bd3d9;
+    border-left: 5px solid #0bd3d9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-info-75 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #0bd3d9;
+    border-left: 5px solid #0bd3d9;
+    border-right: 5px solid #0bd3d9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-info-100 {
+    border: 5px solid #e1e1e1;
+    border: 5px solid #0bd3d9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-warning-25 {
+    border: 5px solid #e1e1e1;
+    border-left: 5px solid #f4992e;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-warning-50 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #f4992e;
+    border-left: 5px solid #f4992e;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-warning-75 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #f4992e;
+    border-left: 5px solid #f4992e;
+    border-right: 5px solid #f4992e;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-warning-100 {
+    border: 5px solid #e1e1e1;
+    border: 5px solid #f4992e;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-failure-25 {
+    border: 5px solid #e1e1e1;
+    border-left: 5px solid #cb442d;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-failure-50 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #cb442d;
+    border-left: 5px solid #cb442d;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-failure-75 {
+    border: 5px solid #e1e1e1;
+    border-bottom: 5px solid #cb442d;
+    border-left: 5px solid #cb442d;
+    border-right: 5px solid #cb442d;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+  .progress-circle .progress-failure-100 {
+    border: 5px solid #e1e1e1;
+    border: 5px solid #cb442d;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 75px;
+    height: 75px; }
+
 .btn {
   border: 1px solid #000;
   border-radius: 2px;
@@ -423,6 +618,14 @@ a {
   .btn-lg:hover {
     background: #000;
     color: #fff; }
+
+.badge {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  color: white;
+  padding: 6px 20px; }
 
 #cover {
   background: #fafafa;

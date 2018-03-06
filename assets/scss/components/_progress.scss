@@ -1,0 +1,168 @@
+.progress {
+  border: 1px solid darken($off-white, 10%);
+  @include border-radius(3px);
+  color: white;
+  text-align: right;
+  width: 250px;
+  position: relative;
+
+  .progress-75 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 75%;
+  }
+  .progress-50 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 50%;
+  }
+  .progress-25 {
+    height: 25px;
+    padding: 0 4px 0 0;
+    width: 25%;
+  }
+}
+
+.progress-circle {
+  color: black;
+
+  span {
+    position: relative;
+    top: 25px;
+    left: 25px;
+  }
+
+  // Progress Success
+  .progress-success-25 {
+    border: 5px solid darken($off-white, 10%);
+    border-left: 5px solid $success;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-success-50 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $success;
+    border-left: 5px solid $success;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-success-75 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $success;
+    border-left: 5px solid $success;
+    border-right: 5px solid $success;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-success-100 {
+    border: 5px solid darken($off-white, 10%);
+    border: 5px solid $success;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+
+  // Progress Info
+  .progress-info-25 {
+    border: 5px solid darken($off-white, 10%);
+    border-left: 5px solid $info;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-info-50 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $info;
+    border-left: 5px solid $info;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-info-75 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $info;
+    border-left: 5px solid $info;
+    border-right: 5px solid $info;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-info-100 {
+    border: 5px solid darken($off-white, 10%);
+    border: 5px solid $info;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+
+  // Progress Warning
+  .progress-warning-25 {
+    border: 5px solid darken($off-white, 10%);
+    border-left: 5px solid $warning;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-warning-50 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $warning;
+    border-left: 5px solid $warning;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-warning-75 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $warning;
+    border-left: 5px solid $warning;
+    border-right: 5px solid $warning;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-warning-100 {
+    border: 5px solid darken($off-white, 10%);
+    border: 5px solid $warning;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+
+  // Progress Failure
+  .progress-failure-25 {
+    border: 5px solid darken($off-white, 10%);
+    border-left: 5px solid $failure;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-failure-50 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $failure;
+    border-left: 5px solid $failure;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-failure-75 {
+    border: 5px solid darken($off-white, 10%);
+    border-bottom: 5px solid $failure;
+    border-left: 5px solid $failure;
+    border-right: 5px solid $failure;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+  .progress-failure-100 {
+    border: 5px solid darken($off-white, 10%);
+    border: 5px solid $failure;
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }
+
+
+}

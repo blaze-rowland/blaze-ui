@@ -1,0 +1,5 @@
+.badge {
+  @include border-radius(6px);
+  color: white;
+  padding: 6px 20px;
+}

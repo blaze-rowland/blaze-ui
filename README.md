@@ -74,6 +74,21 @@
        </ul>
      </nav>
 
+**Mobile Navbar:**
+
+    <nav id="mobile-nav">
+      <a href="index.html" class="brand-img">
+        <img src="assets/img/logo/logo.svg" alt="">
+      </a>
+      <div class="mobile-dropper float-right">&#x2630;</div>
+
+      <ul class="mobile-nav">
+        <a href=""><li>Home</li></a>
+        <a href=""><li>Examples</li></a>
+        <a href=""><li>Documentation</li></a>
+      </ul>
+    </nav>
+
 
 
 ----------
@@ -239,6 +254,56 @@
      </div>
 
 ----------
+## Progress Bars
+
+
+     <div class="progress"><div class="progress-25 background-success">25%</div></div>
+     <div class="progress"><div class="progress-50 background-warning">50%</div></div>
+     <div class="progress"><div class="progress-75 background-info">75%</div></div>
+
+
+
+--------------------
+## Progress Circles
+
+    <div class="progress-circle">
+        <div class="progress-success-25">
+          <span>25%</span>
+        </div>
+      </div>
+
+      <div class="progress-circle">
+        <div class="progress-info-50">
+          <span>50%</span>
+        </div>
+      </div>
+    </div>
+
+
+
+----------
+
+
+## Graphs
+
+    <div class="progress inline"><div class="progress-25 background-success">25%</div></div>
+    <div class="progress inline"><div class="progress-50 background-warning">50%</div></div>
+    <div class="progress inline"><div class="progress-75 background-info">75%</div></div>
+
+
+----------
+
+
+## Badges
+
+    <span class="badge background-success">Success Badge</span>
+    <span class="badge background-info">Info Badge</span>
+    <span class="badge background-warning">Warning Badge</span>
+    <span class="badge background-failure">Failure Badge</span>
+
+
+----------
+
 
 ## Helpers
 
@@ -261,6 +326,7 @@
 
     <p class="lead"></p> -- Prominent Text
 	<a class="classic"></a> -- Underline text
+	<div class="hide"></div> -- Sets Display to None
 	<div class="no-effects"></div> -- Removes Effects given by Blaze-UI
 	<div class="no-border-effect"></div> -- Removes Border Radius
 	<div class="no-box-effect"></div> -- Removes Box Shadow

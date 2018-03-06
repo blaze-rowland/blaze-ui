@@ -89,11 +89,6 @@
   }
 }
 
-// Displays Code on-screen
-xmp {
-  background: $off-white;
-  padding: 3px 8px;
-}
 
 // Margins
 .m-15 {
@@ -175,7 +170,6 @@ xmp {
 .primary {
   color: $primary-color;
 }
-
 .success {
   color: $success;
 }
@@ -187,6 +181,19 @@ xmp {
 }
 .warning {
   color: $warning;
+}
+
+.background-success {
+  background: $success;
+}
+.background-failure {
+  background: $failure;
+}
+.background-info {
+  background: $info;
+}
+.background-warning {
+  background: $warning;
 }
 
 .btn.success, .toggle.success {
@@ -272,21 +279,3 @@ xmp {
   }
 }
 // End Colors Inverse
-
-// Animations
-
-// .slide {
-//   animation: slide 10s linear;
-//   display: block;
-// }
-//
-// @keyframes slide {
-//   0%{ height: 0;}
-//   100%{ height: auto; }
-// }
-
-.slide {
-  display: block;
-}
-
-// End Animations
