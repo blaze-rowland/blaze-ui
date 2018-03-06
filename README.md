@@ -23,11 +23,13 @@
 * March-3-2018 (Initial Commit)
 * March-4-2018 (Framework Started (not mobile-friendly yet))
 * March-5-2018 (Mobile Support)
+* March-5-2018 (Added Badges, Graphs, and Progress Bars/Circles)
 
 ----
 ## What's Used
-* [SASS](#)
-* [JavaScript](#)
+* [SASS](https://sass-lang.com/)
+* [jQuery](http://jquery.com/)
+* [ResetCSS](https://meyerweb.com/eric/tools/css/reset/)
 
 ----
 
