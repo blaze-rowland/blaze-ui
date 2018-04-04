@@ -1,15 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .container {
   margin: 0 auto;
-  width: 70%; }
-  @media (max-width: 414px) {
-    .container {
-      margin: 0 auto;
-      width: 95%; } }
+  width: 70%;
+}
 
+@media (max-width: 414px) {
+  /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+  .container {
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+
+/* line 12, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .classic {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+/* line 16, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-effects {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -18,50 +27,76 @@
   box-shadow: 0 0 0 0 black !important;
   -moz-box-shadow: 0 0 0 0 black !important;
   -ms-box-shadow: 0 0 0 0 black !important;
-  -webkit-box-shadow: 0 0 0 0 black !important; }
+  -webkit-box-shadow: 0 0 0 0 black !important;
+}
 
+/* line 21, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-border-effect {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
-  -webkit-border-radius: 0 !important; }
+  -webkit-border-radius: 0 !important;
+}
 
+/* line 25, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-box-effect {
   box-shadow: 0 0 0 0 black !important;
   -moz-box-shadow: 0 0 0 0 black !important;
   -ms-box-shadow: 0 0 0 0 black !important;
-  -webkit-box-shadow: 0 0 0 0 black !important; }
+  -webkit-box-shadow: 0 0 0 0 black !important;
+}
 
+/* line 30, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline {
-  display: inline; }
+  display: inline;
+}
 
+/* line 35, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline-child * {
-  display: inline; }
+  display: inline;
+}
 
+/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline-block {
-  display: inline-block; }
+  display: inline-block;
+}
 
+/* line 44, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .block {
-  display: block; }
+  display: block;
+}
 
+/* line 48, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .hide {
-  display: none; }
+  display: none;
+}
 
+/* line 52, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .fixed {
-  position: fixed; }
+  position: fixed;
+}
 
+/* line 56, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .float-right {
-  float: right; }
+  float: right;
+}
 
+/* line 60, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .float-left {
-  float: left; }
+  float: left;
+}
 
+/* line 64, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .text-center {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 68, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .bulleted {
-  list-style: disc; }
+  list-style: disc;
+}
 
+/* line 75, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .description {
   background: #fafafa;
   border-radius: 2px;
@@ -73,169 +108,274 @@
   -ms-box-shadow: 0 0 8px -5px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 0 0 8px -5px rgba(0, 0, 0, 0.8);
   line-height: 1.6;
-  padding: 15px 13px; }
+  padding: 15px 13px;
+}
 
+/* line 84, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .contained {
-  display: inline-block; }
-  .contained:nth-child(n) {
-    width: fit-content; }
+  display: inline-block;
+}
 
+/* line 87, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.contained:nth-child(n) {
+  width: fit-content;
+}
+
+/* line 94, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-15 {
-  margin: 15px; }
+  margin: 15px;
+}
 
+/* line 97, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-15 {
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
+/* line 100, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-15 {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
+/* line 103, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-15 {
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
+/* line 106, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-15 {
-  margin-left: 15px; }
+  margin-left: 15px;
+}
 
+/* line 110, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-25 {
-  margin: 25px; }
+  margin: 25px;
+}
 
+/* line 113, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-25 {
-  margin-top: 25px; }
+  margin-top: 25px;
+}
 
+/* line 116, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-25 {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
+/* line 119, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-25 {
-  margin-right: 25px; }
+  margin-right: 25px;
+}
 
+/* line 122, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-25 {
-  margin-left: 25px; }
+  margin-left: 25px;
+}
 
+/* line 126, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-50 {
-  margin: 50px; }
+  margin: 50px;
+}
 
+/* line 129, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-50 {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
+/* line 132, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-50 {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
+/* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-50 {
-  margin-right: 50px; }
+  margin-right: 50px;
+}
 
+/* line 138, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-50 {
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
+/* line 144, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-75 {
-  width: 75%; }
+  width: 75%;
+}
 
+/* line 148, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-50 {
-  width: 50%; }
+  width: 50%;
+}
 
+/* line 151, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-25 {
-  width: 25%; }
+  width: 25%;
+}
 
+/* line 159, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .section-hr {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
+/* line 163, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .visible-text {
   background: rgba(0, 0, 0, 0.5);
-  padding: 8px 15px; }
+  padding: 8px 15px;
+}
 
+/* line 170, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .primary {
-  color: #FF3533; }
+  color: #FF3533;
+}
 
+/* line 173, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .success {
-  color: #0bd932; }
+  color: #0bd932;
+}
 
+/* line 176, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .failure {
-  color: #cb442d; }
+  color: #cb442d;
+}
 
+/* line 179, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .info {
-  color: #0bd3d9; }
+  color: #0bd3d9;
+}
 
+/* line 182, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .warning {
-  color: #f4992e; }
+  color: #f4992e;
+}
 
+/* line 186, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-success {
-  background: #0bd932; }
+  background: #0bd932;
+}
 
+/* line 189, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-failure {
-  background: #cb442d; }
+  background: #cb442d;
+}
 
+/* line 192, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-info {
-  background: #0bd3d9; }
+  background: #0bd3d9;
+}
 
+/* line 195, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-warning {
-  background: #f4992e; }
+  background: #f4992e;
+}
 
+/* line 199, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success, .toggle.success {
   background: #fff;
   border-color: #0bd932;
-  color: #0bd932; }
-  .btn.success:hover, .toggle.success:hover {
-    background-color: #0bd932;
-    color: #fff; }
+  color: #0bd932;
+}
 
+/* line 204, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.success:hover, .toggle.success:hover {
+  background-color: #0bd932;
+  color: #fff;
+}
+
+/* line 209, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning, .toggle.warning {
   background: #fff;
   border-color: #f4992e;
-  color: #f4992e; }
-  .btn.warning:hover, .toggle.warning:hover {
-    background-color: #f4992e;
-    color: #fff; }
+  color: #f4992e;
+}
 
+/* line 214, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.warning:hover, .toggle.warning:hover {
+  background-color: #f4992e;
+  color: #fff;
+}
+
+/* line 219, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure, .toggle.failure {
   background: #fff;
   border-color: #cb442d;
-  color: #cb442d; }
-  .btn.failure:hover, .toggle.failure:hover {
-    background-color: #cb442d;
-    color: #fff; }
+  color: #cb442d;
+}
 
+/* line 224, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.failure:hover, .toggle.failure:hover {
+  background-color: #cb442d;
+  color: #fff;
+}
+
+/* line 229, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info, .toggle.info {
   background: #fff;
   border-color: #0bd3d9;
-  color: #0bd3d9; }
-  .btn.info:hover, .toggle.info:hover {
-    background-color: #0bd3d9;
-    color: #fff; }
+  color: #0bd3d9;
+}
 
+/* line 234, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.info:hover, .toggle.info:hover {
+  background-color: #0bd3d9;
+  color: #fff;
+}
+
+/* line 241, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success-inverse, .toggle.success.inverse {
   background: #0bd932;
   border-color: #0bd932;
-  color: #fff; }
-  .btn.success-inverse:hover, .toggle.success.inverse:hover {
-    background: inherit;
-    color: #0bd932; }
+  color: #fff;
+}
 
+/* line 246, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.success-inverse:hover, .toggle.success.inverse:hover {
+  background: inherit;
+  color: #0bd932;
+}
+
+/* line 251, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure-inverse, .toggle.failure-inverse {
   background: #cb442d;
   border-color: #cb442d;
-  color: #fff; }
-  .btn.failure-inverse:hover, .toggle.failure-inverse:hover {
-    background: inherit;
-    color: #cb442d; }
+  color: #fff;
+}
 
+/* line 256, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.failure-inverse:hover, .toggle.failure-inverse:hover {
+  background: inherit;
+  color: #cb442d;
+}
+
+/* line 261, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info-inverse, .toggle.info-inverse {
   background: #0bd3d9;
   border-color: #0bd3d9;
-  color: #fff; }
-  .btn.info-inverse:hover, .toggle.info-inverse:hover {
-    background: inherit;
-    color: #0bd3d9; }
+  color: #fff;
+}
 
+/* line 266, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.info-inverse:hover, .toggle.info-inverse:hover {
+  background: inherit;
+  color: #0bd3d9;
+}
+
+/* line 271, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning-inverse, .toggle.warning-inverse {
   background: #f4992e;
   border-color: #f4992e;
-  color: #fff; }
-  .btn.warning-inverse:hover, .toggle.warning-inverse:hover {
-    background: inherit;
-    color: #f4992e; }
+  color: #fff;
+}
+
+/* line 276, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+.btn.warning-inverse:hover, .toggle.warning-inverse:hover {
+  background: inherit;
+  color: #f4992e;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 6, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -254,64 +394,96 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
+/* line 27, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
+/* line 31, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 body {
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
+/* line 34, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
+/* line 37, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
+/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
+/* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+/* line 4, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 html, body {
   line-height: 1.5;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+}
 
+/* line 10, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h1 {
   font-size: 1.8em;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
+/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h2 {
   font-size: 1.7em;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
+/* line 18, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h3 {
   font-size: 1.6em;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
+/* line 22, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h4 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
+/* line 25, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h5 {
-  font-size: 1.4em; }
+  font-size: 1.4em;
+}
 
+/* line 28, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 h6 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
+/* line 33, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 a {
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 39, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/base/_typography.scss */
 .lead {
   line-height: 1.6;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
 #nav {
   border-bottom: 1px solid #fafafa;
   box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.3);
@@ -320,41 +492,71 @@ a {
   -webkit-box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.3);
   padding: 10px 0 10px 0;
   margin: 0;
-  width: 100%; }
-  @media (max-width: 414px), (max-width: 768px) {
-    #nav {
-      display: none; } }
-  #nav .container .brand {
-    margin-left: 1px; }
-  #nav .container .brand-img {
-    margin-left: 1px; }
-  #nav ul li {
-    display: inline-block;
-    margin-right: 25px; }
-  #nav .brand {
-    font-size: 1.1em;
-    font-weight: 500;
-    margin-left: 25px; }
-  #nav .brand-img {
-    margin-left: 25px; }
-    #nav .brand-img img {
-      width: 1.6em;
-      height: auto;
-      position: absolute; }
-  #nav .right {
-    float: right; }
-  #nav .left {
-    display: inline;
-    margin-left: 35px; }
+  width: 100%;
+}
 
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+  #nav {
+    display: none;
+  }
+}
+
+/* line 17, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .container .brand, #nav .container .brand-img {
+  margin-left: 1px;
+}
+
+/* line 23, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+/* line 29, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .brand {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+/* line 36, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .brand-img {
+  margin-left: 25px;
+}
+
+/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .brand-img img {
+  width: 1.6em;
+  height: auto;
+  position: absolute;
+}
+
+/* line 47, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .right {
+  float: right;
+}
+
+/* line 52, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#nav .left {
+  display: inline;
+  margin-left: 35px;
+}
+
+/* line 59, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
 .nav-bottom {
   position: fixed;
-  bottom: 0; }
-  .nav-bottom .right {
-    position: fixed;
-    right: 50px;
-    bottom: 12px; }
+  bottom: 0;
+}
 
+/* line 64, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+.nav-bottom .right {
+  position: fixed;
+  right: 50px;
+  bottom: 12px;
+}
+
+/* line 72, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
 #left-nav {
   background: #2d3553;
   color: #fff;
@@ -365,19 +567,30 @@ a {
   box-shadow: 3px 0px 15px -6px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 3px 0px 15px -6px rgba(0, 0, 0, 0.4);
   -ms-box-shadow: 3px 0px 15px -6px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 3px 0px 15px -6px rgba(0, 0, 0, 0.4); }
-  #left-nav ul li {
-    line-height: 5;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    transition: 0.1s ease; }
-    #left-nav ul li:hover {
-      background: #242a42; }
-  #left-nav .brand {
-    display: block;
-    font-size: 1.3em;
-    font-weight: 600;
-    margin: 50px 0; }
+  -webkit-box-shadow: 3px 0px 15px -6px rgba(0, 0, 0, 0.4);
+}
 
+/* line 82, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#left-nav ul li {
+  line-height: 5;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.1s ease;
+}
+
+/* line 88, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#left-nav ul li:hover {
+  background: #242a42;
+}
+
+/* line 94, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#left-nav .brand {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+/* line 103, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
 #mobile-nav {
   box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.3);
@@ -385,34 +598,58 @@ a {
   -webkit-box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.3);
   display: none;
   margin: 0 auto;
-  padding: 10px 0; }
-  @media (max-width: 414px), (max-width: 768px) {
-    #mobile-nav {
-      display: block; } }
-  #mobile-nav .brand {
-    margin-left: 25px;
-    font-size: 1.3em;
-    font-weight: 600; }
-  #mobile-nav .brand-img {
-    margin-left: 25px; }
-    #mobile-nav .brand-img img {
-      width: 1.6em;
-      height: auto; }
-  #mobile-nav .mobile-dropper {
-    font-size: 1.6em;
-    font-weight: 600;
-    position: relative;
-    top: -2px;
-    right: 25px; }
-  #mobile-nav .mobile-nav {
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
-    display: none;
-    text-align: center;
-    padding: 8px 0; }
-    #mobile-nav .mobile-nav li {
-      padding: 5px 0 3px 0; }
+  padding: 10px 0;
+}
 
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 103, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+  #mobile-nav {
+    display: block;
+  }
+}
+
+/* line 115, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .brand {
+  margin-left: 25px;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/* line 122, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .brand-img {
+  margin-left: 25px;
+}
+
+/* line 126, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .brand-img img {
+  width: 1.6em;
+  height: auto;
+}
+
+/* line 133, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .mobile-dropper {
+  font-size: 1.6em;
+  font-weight: 600;
+  position: relative;
+  top: -2px;
+  right: 25px;
+}
+
+/* line 142, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .mobile-nav {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: none;
+  text-align: center;
+  padding: 8px 0;
+}
+
+/* line 150, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_navigation.scss */
+#mobile-nav .mobile-nav li {
+  padding: 5px 0 3px 0;
+}
+
+/* line 1, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress {
   border: 1px solid #e1e1e1;
   border-radius: 3px;
@@ -422,211 +659,287 @@ a {
   color: white;
   text-align: right;
   width: 250px;
-  position: relative; }
-  .progress .progress-75 {
-    height: 25px;
-    padding: 0 4px 0 0;
-    width: 75%; }
-  .progress .progress-50 {
-    height: 25px;
-    padding: 0 4px 0 0;
-    width: 50%; }
-  .progress .progress-25 {
-    height: 25px;
-    padding: 0 4px 0 0;
-    width: 25%; }
+  position: relative;
+}
 
+/* line 9, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress .progress-75 {
+  height: 25px;
+  padding: 0 4px 0 0;
+  width: 75%;
+}
+
+/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress .progress-50 {
+  height: 25px;
+  padding: 0 4px 0 0;
+  width: 50%;
+}
+
+/* line 19, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress .progress-25 {
+  height: 25px;
+  padding: 0 4px 0 0;
+  width: 25%;
+}
+
+/* line 26, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle {
-  color: black; }
-  .progress-circle span {
-    position: relative;
-    top: 25px;
-    left: 25px; }
-  .progress-circle .progress-success-25 {
-    border: 5px solid #e1e1e1;
-    border-left: 5px solid #0bd932;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-success-50 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #0bd932;
-    border-left: 5px solid #0bd932;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-success-75 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #0bd932;
-    border-left: 5px solid #0bd932;
-    border-right: 5px solid #0bd932;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-success-100 {
-    border: 5px solid #e1e1e1;
-    border: 5px solid #0bd932;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-info-25 {
-    border: 5px solid #e1e1e1;
-    border-left: 5px solid #0bd3d9;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-info-50 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #0bd3d9;
-    border-left: 5px solid #0bd3d9;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-info-75 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #0bd3d9;
-    border-left: 5px solid #0bd3d9;
-    border-right: 5px solid #0bd3d9;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-info-100 {
-    border: 5px solid #e1e1e1;
-    border: 5px solid #0bd3d9;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-warning-25 {
-    border: 5px solid #e1e1e1;
-    border-left: 5px solid #f4992e;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-warning-50 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #f4992e;
-    border-left: 5px solid #f4992e;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-warning-75 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #f4992e;
-    border-left: 5px solid #f4992e;
-    border-right: 5px solid #f4992e;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-warning-100 {
-    border: 5px solid #e1e1e1;
-    border: 5px solid #f4992e;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-failure-25 {
-    border: 5px solid #e1e1e1;
-    border-left: 5px solid #cb442d;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-failure-50 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #cb442d;
-    border-left: 5px solid #cb442d;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-failure-75 {
-    border: 5px solid #e1e1e1;
-    border-bottom: 5px solid #cb442d;
-    border-left: 5px solid #cb442d;
-    border-right: 5px solid #cb442d;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
-  .progress-circle .progress-failure-100 {
-    border: 5px solid #e1e1e1;
-    border: 5px solid #cb442d;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 75px;
-    height: 75px; }
+  color: black;
+}
 
+/* line 29, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle span {
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+/* line 36, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-success-25 {
+  border: 5px solid #e1e1e1;
+  border-left: 5px solid #0bd932;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 43, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-success-50 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #0bd932;
+  border-left: 5px solid #0bd932;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 51, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-success-75 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #0bd932;
+  border-left: 5px solid #0bd932;
+  border-right: 5px solid #0bd932;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 60, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-success-100 {
+  border: 5px solid #e1e1e1;
+  border: 5px solid #0bd932;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 69, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-info-25 {
+  border: 5px solid #e1e1e1;
+  border-left: 5px solid #0bd3d9;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 76, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-info-50 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #0bd3d9;
+  border-left: 5px solid #0bd3d9;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 84, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-info-75 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #0bd3d9;
+  border-left: 5px solid #0bd3d9;
+  border-right: 5px solid #0bd3d9;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 93, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-info-100 {
+  border: 5px solid #e1e1e1;
+  border: 5px solid #0bd3d9;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 102, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-warning-25 {
+  border: 5px solid #e1e1e1;
+  border-left: 5px solid #f4992e;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 109, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-warning-50 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #f4992e;
+  border-left: 5px solid #f4992e;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 117, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-warning-75 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #f4992e;
+  border-left: 5px solid #f4992e;
+  border-right: 5px solid #f4992e;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 126, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-warning-100 {
+  border: 5px solid #e1e1e1;
+  border: 5px solid #f4992e;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-failure-25 {
+  border: 5px solid #e1e1e1;
+  border-left: 5px solid #cb442d;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 142, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-failure-50 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #cb442d;
+  border-left: 5px solid #cb442d;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 150, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-failure-75 {
+  border: 5px solid #e1e1e1;
+  border-bottom: 5px solid #cb442d;
+  border-left: 5px solid #cb442d;
+  border-right: 5px solid #cb442d;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 159, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+.progress-circle .progress-failure-100 {
+  border: 5px solid #e1e1e1;
+  border: 5px solid #cb442d;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn {
   border: 1px solid #000;
   border-radius: 2px;
   display: inline-block;
   padding: 4px 10px;
-  transition: 0.2s ease; }
-  .btn:hover {
-    background: #000;
-    color: #fff; }
+  transition: 0.2s ease;
+}
 
+/* line 9, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* line 16, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn-lg {
   border: 1px solid #000;
   border-radius: 2px;
   font-size: 1.1em;
   padding: 8px 18px;
-  transition: 0.2s ease; }
-  .btn-lg:hover {
-    background: #000;
-    color: #fff; }
+  transition: 0.2s ease;
+}
 
+/* line 23, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
+.btn-lg:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_badges.scss */
 .badge {
   border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
-  padding: 6px 20px; }
+  padding: 6px 20px;
+}
 
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_cover.scss */
 #cover {
   background: #fafafa;
   font-size: .8em;
@@ -636,24 +949,34 @@ a {
   width: 100%;
   text-align: center;
   top: 0;
-  z-index: 99999; }
-  #cover .loader {
-    animation: cover 1.3s ease infinite;
-    border: 5px solid #fafafa;
-    border-radius: 50%;
-    border-top: 5px solid #0bd932;
-    height: 80px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    margin-top: calc(25% - 80px);
-    width: 80px; }
+  z-index: 99999;
+}
+
+/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_cover.scss */
+#cover .loader {
+  animation: cover 1.3s ease infinite;
+  border: 5px solid #fafafa;
+  border-radius: 50%;
+  border-top: 5px solid #0bd932;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: calc(25% - 80px);
+  width: 80px;
+}
+
 @keyframes cover {
   0% {
     transform: rotate(0deg);
-    -moz-transform: rotate(0deg); }
+    -moz-transform: rotate(0deg);
+  }
   100% {
     transform: rotate(360deg);
-    -moz-transform: rotate(360deg); } }
+    -moz-transform: rotate(360deg);
+  }
+}
+
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img {
   border: 1px solid #fafafa;
   box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
@@ -664,55 +987,95 @@ a {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -webkit-border-radius: 5px;
-  width: 415px; }
-  @media (max-width: 414px), (max-width: 768px) {
-    .card-img {
-      width: 300px; } }
-  .card-img .img img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
-    -ms-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
-    height: 225px;
-    width: 100%; }
-    @media (max-width: 414px), (max-width: 768px) {
-      .card-img .img img {
-        height: 110px; } }
-  .card-img .img span {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 1.2em;
-    left: 5px;
-    padding: 5px 15px;
-    position: relative;
-    top: -85px; }
-  .card-img .body {
-    margin-top: -35px;
-    padding: 20px; }
-    .card-img .body h6 {
-      float: left;
-      width: 60%; }
-      @media (max-width: 414px), (max-width: 768px) {
-        .card-img .body h6 {
-          float: none;
-          width: 100%; } }
-    .card-img .body span {
-      color: #949494;
-      margin-top: 8px;
-      font-size: .8em;
-      float: right; }
-      @media (max-width: 414px), (max-width: 768px) {
-        .card-img .body span {
-          float: none; } }
-    .card-img .body p {
-      clear: both;
-      margin-top: 40px; }
-      @media (max-width: 414px), (max-width: 768px) {
-        .card-img .body p {
-          margin-top: 15px; } }
+  width: 415px;
+}
 
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-img {
+    width: 300px;
+  }
+}
+
+/* line 15, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .img img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 3px 8px -4px rgba(0, 0, 0, 0.4);
+  height: 225px;
+  width: 100%;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 15, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-img .img img {
+    height: 110px;
+  }
+}
+
+/* line 29, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .img span {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.2em;
+  left: 5px;
+  padding: 5px 15px;
+  position: relative;
+  top: -85px;
+}
+
+/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .body {
+  margin-top: -35px;
+  padding: 20px;
+}
+
+/* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .body h6 {
+  float: left;
+  width: 60%;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-img .body h6 {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* line 57, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .body span {
+  color: #949494;
+  margin-top: 8px;
+  font-size: .8em;
+  float: right;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 57, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-img .body span {
+    float: none;
+  }
+}
+
+/* line 70, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-img .body p {
+  clear: both;
+  margin-top: 40px;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 70, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-img .body p {
+    margin-top: 15px;
+  }
+}
+
+/* line 83, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card {
   border: 1px solid #fafafa;
   box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
@@ -724,65 +1087,107 @@ a {
   -ms-border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 20px;
-  width: 415px; }
-  @media (max-width: 414px), (max-width: 768px) {
-    .card {
-      width: 260px; } }
-  .card span {
-    color: #949494;
-    font-size: .8em; }
-  .card p {
-    margin-top: 15px; }
-  .card .toggle {
-    box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
-    -ms-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 2.3em;
-    font-weight: 600;
-    float: right;
-    height: 45px;
-    margin-top: 10px;
-    text-align: center;
-    transition: 0.5s ease;
-    width: 45px; }
-    .card .toggle:hover {
-      box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
-      -ms-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
-      -webkit-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3); }
+  width: 415px;
+}
 
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 83, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card {
+    width: 260px;
+  }
+}
+
+/* line 95, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card span {
+  color: #949494;
+  font-size: .8em;
+}
+
+/* line 100, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card p {
+  margin-top: 15px;
+}
+
+/* line 104, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card .toggle {
+  box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2.3em;
+  font-weight: 600;
+  float: right;
+  height: 45px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s ease;
+  width: 45px;
+}
+
+/* line 118, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card .toggle:hover {
+  box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* line 125, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .togglable {
-  padding-bottom: 35px; }
-  .togglable .plus::after {
-    content: '\002B';
-    position: relative;
-    top: -4px;
-    left: 0px; }
+  padding-bottom: 35px;
+}
 
+/* line 130, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.togglable .plus::after {
+  content: '\002B';
+  position: relative;
+  top: -4px;
+  left: 0px;
+}
+
+/* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-grid {
   display: grid;
   grid-template-areas: 'card card card';
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px; }
-  @media (max-width: 1200px) {
-    .card-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: 'card'; } }
-  @media (max-width: 768px), (max-width: 992px) {
-    .card-grid {
-      grid-template-areas: 'card' 'card' 'card';
-      grid-template-columns: 1fr; } }
-  .card-grid .card {
-    grid-area: 'card'; }
-    .card-grid .card .toggle {
-      position: relative;
-      top: 20px; }
-  .card-grid .togglable {
-    padding-bottom: inherit; }
+  grid-gap: 25px;
+}
 
+@media (max-width: 1200px) {
+  /* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'card';
+  }
+}
+
+@media (max-width: 768px), (max-width: 992px) {
+  /* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  .card-grid {
+    grid-template-areas: 'card' 'card' 'card';
+    grid-template-columns: 1fr;
+  }
+}
+
+/* line 161, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-grid .card {
+  grid-area: 'card';
+}
+
+/* line 165, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-grid .card .toggle {
+  position: relative;
+  top: 20px;
+}
+
+/* line 171, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+.card-grid .togglable {
+  padding-bottom: inherit;
+}
+
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
 #hero {
   background: coral;
   background-image: url("../img/bg/hero.png");
@@ -790,59 +1195,101 @@ a {
   background-size: contain;
   height: auto;
   padding: 23rem 0;
-  width: 100%; }
-  @media (max-width: 414px), (max-width: 768px) {
-    #hero {
-      padding: 15rem 0; } }
-  #hero .hero-text {
-    color: white;
-    font-size: 6em;
-    font-weight: 600;
-    line-height: 1.2;
-    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.09);
-    text-transform: uppercase; }
-    @media (max-width: 414px), (max-width: 768px) {
-      #hero .hero-text {
-        font-size: 3em; } }
-
-#hero.medium {
-  padding: 13rem 0; }
-  @media (max-width: 414px), (max-width: 768px) {
-    #hero.medium {
-      padding: 8rem 0; } }
-
-#hero.small {
-  padding: 8rem 0; }
-  @media (max-width: 414px), (max-width: 768px) {
-    #hero.small {
-      padding: 4rem 0; } }
-
-.flex-grid {
-  display: flex; }
-
-.flex-grid .col {
-  flex: 1; }
-
-.flex-grid-thirds {
-  display: flex;
-  justify-content: space-between; }
-
-.flex-grid-thirds .col {
-  width: 32%; }
+  width: 100%;
+}
 
 @media (max-width: 414px), (max-width: 768px) {
+  /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+  #hero {
+    padding: 15rem 0;
+  }
+}
+
+/* line 17, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+#hero .hero-text {
+  color: white;
+  font-size: 6em;
+  font-weight: 600;
+  line-height: 1.2;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.09);
+  text-transform: uppercase;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 17, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+  #hero .hero-text {
+    font-size: 3em;
+  }
+}
+
+/* line 33, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+#hero.medium {
+  padding: 13rem 0;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 33, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+  #hero.medium {
+    padding: 8rem 0;
+  }
+}
+
+/* line 42, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+#hero.small {
+  padding: 8rem 0;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 42, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_hero.scss */
+  #hero.small {
+    padding: 4rem 0;
+  }
+}
+
+/* line 1, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
+.flex-grid {
+  display: flex;
+}
+
+/* line 4, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
+.flex-grid .col {
+  flex: 1;
+}
+
+/* line 8, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 12, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
+.flex-grid-thirds .col {
+  width: 32%;
+}
+
+@media (max-width: 414px), (max-width: 768px) {
+  /* line 17, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
   .flex-grid,
   .flex-grid-thirds {
-    display: block; }
-    .flex-grid .col,
-    .flex-grid-thirds .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-      padding: 30px 0; } }
+    display: block;
+  }
+  /* line 20, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
+  .flex-grid .col,
+  .flex-grid-thirds .col {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 30px 0;
+  }
+}
+
+/* line 28, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
 .flex-grid {
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 31, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/layout/_grid.scss */
 .col {
-  padding: 30px; }
+  padding: 30px;
+}
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=../css/app.map */

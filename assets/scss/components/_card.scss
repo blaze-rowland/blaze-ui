@@ -1,13 +1,17 @@
+// Creates Card Component with Image
 .card-img {
   border: 1px solid $off-white;
   @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
   @include border-radius(5px);
   width: 415px;
 
+  // Changes Default Styling for Mobile Devices
   @media(max-width: $break-xs), (max-width: $break-sm) {
     width: 300px;
   }
+  // Starts Img for Card-Img Styling
   .img {
+    // Img Tag default Styling for Card-img
     img {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
@@ -15,10 +19,13 @@
       height: 225px;
       width: 100%;
 
+      // Changes Height of Img for Mobile Devices
       @media(max-width: $break-xs), (max-width: $break-sm) {
         height: 110px;
       }
     }
+
+    // Sets Cover Text for Image
     span {
       background: rgba(0, 0, 0, 0.5);
       color: white;
@@ -29,32 +36,42 @@
       top: -85px;
     }
   }
+  // Body of Card-Img Default Styling
   .body {
     margin-top: -35px;
     padding: 20px;
+
+    // Suggested to use h6 in cards. Default Styling
     h6 {
       float: left;
       width: 60%;
 
+      // Removes float and sets width to 100% for Mobile Devices
       @media(max-width: $break-xs), (max-width: $break-sm) {
         float: none;
         width: 100%;
       }
     }
+
+    // Sets Span tag styling (generally used for dates or author)
     span {
       color: darken($off-white, 40%);
       margin-top: 8px;
       font-size: .8em;
       float: right;
 
+      // Changes placement of span for mobile devices
       @media(max-width: $break-xs), (max-width: $break-sm) {
         float: none;
       }
     }
+
+    // Sets paragraph positioning
     p {
       clear: both;
       margin-top: 40px;
 
+      // Re-aligns paragraph position for mobile devices
       @media(max-width: $break-xs), (max-width: $break-sm) {
         margin-top: 15px;
       }
@@ -62,6 +79,7 @@
   }
 }
 
+// Sets Default Styling for Default Card Component
 .card {
   border: 1px solid $off-white;
   @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
@@ -69,16 +87,20 @@
   padding: 20px;
   width: 415px;
 
+  // Changes width of Card Component on Mobile Devices
   @media(max-width: $break-xs), (max-width: $break-sm) {
     width: 260px;
   }
+    // Sets default styling for Span on Cards (primarily used for Dates or Author)
     span {
       color: darken($off-white, 40%);
       font-size: .8em;
     }
+    // Sets Default Styling for paragraph section of card
     p {
       margin-top: 15px;
     }
+    // Defines Toggle button for Card Component
     .toggle {
       @include box-shadow(0, 0, 15px, -3px, rgba(0, 0, 0, 0.4));
       border-radius: 50%;
@@ -91,16 +113,19 @@
       text-align: center;
       transition: 0.5s ease;
       width: 45px;
-
+      
+      // Sets Hover state for Toggle Button
       &:hover {
         @include box-shadow(0, 0, 13px, -3px, rgba(0, 0, 0, 0.3));
       }
     }
 }
 
+// Defines if a card is going to use a toggle button
 .togglable {
   padding-bottom: 35px;
 
+  // Adds Plus to toggle button
   .plus {
     &::after {
       content: '\002B';
@@ -111,32 +136,38 @@
   }
 }
 
+// Defines a strict grid for Card or Card-Img
+// Card Grid is 3 Column : 1 Row
 .card-grid {
   display: grid;
   grid-template-areas: 'card card card';
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
 
+  // Sets Card Grid to 2 Column : 1 Row on Smaller Screens
   @media(max-width: $break-lg) {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'card';
   }
 
+  // Sets Card grid to 1 Column : 1 Row for mobile Devices
   @media(max-width: $break-sm), (max-width: $break-md) {
     grid-template-areas: 'card'
                          'card'
                          'card';
     grid-template-columns: 1fr;
   }
+  // Sets card grid-area for CSS Grid
   .card {
     grid-area: 'card';
 
+    // Sets Toggle Position
     .toggle {
       position: relative;
       top: 20px;
     }
   }
-
+  // Sets padding for togglable cards
   .togglable {
     padding-bottom: inherit;
   }

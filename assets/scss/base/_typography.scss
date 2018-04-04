@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+// Sets Default Line-height and Primary Font
 html, body {
   line-height: 1.5;
   font-family: $primary-font;
 }
 
+// Sets Default Heading Styles
 h1 {
   font-size: 1.8em;
   font-weight: 700;
@@ -27,11 +29,13 @@ h6 {
   font-size: 1.3em;
 }
 
+// Sets Default Anchor tag Styles
 a {
   color: inherit;
   text-decoration: none;
 }
 
+// Creates Lead Font Type
 .lead {
   line-height: 1.6;
   font-weight: 500;

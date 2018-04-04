@@ -1,3 +1,4 @@
+// Defines default styling for Cover Loader
 #cover {
   background: $off-white;
   font-size: .8em;
@@ -9,6 +10,7 @@
   top: 0;
   z-index: 99999;
 
+  // Sets default styling for loader animatoin
   .loader {
     animation: cover 1.3s ease infinite;
     border: 5px solid $off-white;
@@ -21,6 +23,7 @@
     width: 80px;
   }
 
+  // Defines Loader Animation
   @keyframes cover {
     0% { transform: rotate(0deg); -moz-transform: rotate(0deg);}
     100% { transform: rotate(360deg); -moz-transform: rotate(360deg);}
