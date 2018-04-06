@@ -3,25 +3,35 @@
   margin: 0 auto;
   width: 70%;
 
+  // Changes Container width on Mobile Devices
   @media(max-width: $break-xs) {
     margin: 0 auto;
     width: 95%;
   }
 }
 
+// Defines Underlined Text
 .classic {
   text-decoration: underline;
 }
 
+/* 
+  Future Updates will more-than likely reverse these roles. 
+  Users will need to add effects instead of remove them.
+*/
+
+// Removes Default Effects Determined by Blaze-UI Default
 .no-effects {
   @include border-radius(0 !important);
   @include box-shadow(0, 0, 0, 0, black !important);
 }
 
+// Removes Border Radius Determined by Blaze-UI Default
 .no-border-effect {
   @include border-radius(0 !important);
 }
 
+// Removes Box Shadow Determined by Blaze-UI Default
 .no-box-effect {
   @include box-shadow(0, 0, 0, 0, black !important);
 }
@@ -41,30 +51,37 @@
   display: inline-block;
 }
 
+// Display content block
 .block {
   display: block;
 }
 
+// Sets Display to None
 .hide {
   display: none;
 }
 
+// Sets Position to Fixed
 .fixed {
   position: fixed;
 }
 
+// Floats Element(s) to Right
 .float-right {
   float: right;
 }
 
+// Float Element(s) to Left
 .float-left {
   float: left;
 }
 
+// Aligns Text to Center of Parent
 .text-center {
   text-align: center;
 }
 
+// Lists with Bullet Styles
 .bulleted {
   list-style: disc;
 }
@@ -160,6 +177,7 @@
   margin: 20px 0;
 }
 
+// Creates Dark Background for Text to Display on hard-to-see Backgrouns
 .visible-text {
   background: rgba(0, 0, 0, 0.5);
   padding: 8px 15px;

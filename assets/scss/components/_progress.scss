@@ -1,3 +1,4 @@
+// Defines Default Progress-Bar Class
 .progress {
   border: 1px solid darken($off-white, 10%);
   @include border-radius(3px);
@@ -6,16 +7,19 @@
   width: 250px;
   position: relative;
 
+  // States Status-bar is at 75%
   .progress-75 {
     height: 25px;
     padding: 0 4px 0 0;
     width: 75%;
   }
+  // States Status-bar is at 50%
   .progress-50 {
     height: 25px;
     padding: 0 4px 0 0;
     width: 50%;
   }
+  // States status-bar is at 25%
   .progress-25 {
     height: 25px;
     padding: 0 4px 0 0;
@@ -23,9 +27,11 @@
   }
 }
 
+// Defines Default Progress-Circle
 .progress-circle {
   color: black;
 
+  // Sets positioning for spaj
   span {
     position: relative;
     top: 25px;
@@ -40,6 +46,8 @@
     width: 75px;
     height: 75px;
   }
+
+  // Starts Color-Scheme for Progress Bar
   .progress-success-50 {
     border: 5px solid darken($off-white, 10%);
     border-bottom: 5px solid $success;
