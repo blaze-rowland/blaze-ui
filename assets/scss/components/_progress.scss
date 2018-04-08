@@ -9,20 +9,17 @@
 
   // States Status-bar is at 75%
   .progress-75 {
-    height: 25px;
-    padding: 0 4px 0 0;
+    @extend %progress;
     width: 75%;
   }
   // States Status-bar is at 50%
   .progress-50 {
-    height: 25px;
-    padding: 0 4px 0 0;
+    @extend %progress;
     width: 50%;
   }
   // States status-bar is at 25%
   .progress-25 {
-    height: 25px;
-    padding: 0 4px 0 0;
+    @extend %progress;
     width: 25%;
   }
 }
@@ -40,136 +37,88 @@
 
   // Progress Success
   .progress-success-25 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-left: 5px solid $success;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
 
   // Starts Color-Scheme for Progress Bar
   .progress-success-50 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $success;
     border-left: 5px solid $success;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-success-75 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $success;
     border-left: 5px solid $success;
     border-right: 5px solid $success;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-success-100 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border: 5px solid $success;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
 
   // Progress Info
   .progress-info-25 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-left: 5px solid $info;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-info-50 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $info;
     border-left: 5px solid $info;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-info-75 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $info;
     border-left: 5px solid $info;
     border-right: 5px solid $info;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-info-100 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border: 5px solid $info;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
 
   // Progress Warning
   .progress-warning-25 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-left: 5px solid $warning;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-warning-50 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $warning;
     border-left: 5px solid $warning;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-warning-75 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $warning;
     border-left: 5px solid $warning;
     border-right: 5px solid $warning;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-warning-100 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border: 5px solid $warning;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
 
   // Progress Failure
   .progress-failure-25 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-left: 5px solid $failure;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-failure-50 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $failure;
     border-left: 5px solid $failure;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-failure-75 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border-bottom: 5px solid $failure;
     border-left: 5px solid $failure;
     border-right: 5px solid $failure;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
   .progress-failure-100 {
-    border: 5px solid darken($off-white, 10%);
+    @extend %progress-size;
     border: 5px solid $failure;
-    @include border-radius(50%);
-    width: 75px;
-    height: 75px;
   }
 
 

@@ -1,0 +1,25 @@
+%button {
+    border: 1px solid #000;
+    @include border-radius(2px);
+    display: inline-block;
+    transition: 0.2s ease;
+  }
+
+  %card {
+    border: 1px solid $off-white;
+    @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
+    @include border-radius(5px);
+    width: 415px;
+  }
+
+  %progress {
+    height: 25px;
+    padding: 0 4px 0 0;
+  }
+
+  %progress-size {
+    border: 5px solid darken($off-white, 10%);
+    @include border-radius(50%);
+    width: 75px;
+    height: 75px;
+  }

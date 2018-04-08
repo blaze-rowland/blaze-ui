@@ -1,8 +1,6 @@
 // Defines default styling for buttons
 .btn {
-  border: 1px solid #000;
-  border-radius: 2px;
-  display: inline-block;
+  @extend %button;
   padding: 4px 10px;
   transition: 0.2s ease;
 
@@ -14,11 +12,9 @@
 
 // Defines default Styling for large buttons
 .btn-lg {
-  border: 1px solid #000;
-  border-radius: 2px;
+  @extend %button;
   font-size: 1.1em;
   padding: 8px 18px;
-  transition: 0.2s ease;
 
   &:hover {
     background: #000;

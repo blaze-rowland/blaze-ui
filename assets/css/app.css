@@ -13,12 +13,16 @@
   }
 }
 
-/* line 12, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .classic {
   text-decoration: underline;
 }
 
-/* line 16, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* 
+  Future Updates will more-than likely reverse these roles. 
+  Users will need to add effects instead of remove them.
+*/
+/* line 24, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-effects {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -30,7 +34,7 @@
   -webkit-box-shadow: 0 0 0 0 black !important;
 }
 
-/* line 21, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 30, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-border-effect {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -38,7 +42,7 @@
   -webkit-border-radius: 0 !important;
 }
 
-/* line 25, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 35, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .no-box-effect {
   box-shadow: 0 0 0 0 black !important;
   -moz-box-shadow: 0 0 0 0 black !important;
@@ -46,57 +50,57 @@
   -webkit-box-shadow: 0 0 0 0 black !important;
 }
 
-/* line 30, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline {
   display: inline;
 }
 
-/* line 35, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline-child * {
   display: inline;
 }
 
-/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 50, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 44, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 55, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .block {
   display: block;
 }
 
-/* line 48, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 60, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .hide {
   display: none;
 }
 
-/* line 52, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 65, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .fixed {
   position: fixed;
 }
 
-/* line 56, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 70, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .float-right {
   float: right;
 }
 
-/* line 60, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 75, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .float-left {
   float: left;
 }
 
-/* line 64, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 80, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 68, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 85, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .bulleted {
   list-style: disc;
 }
 
-/* line 75, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 92, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .description {
   background: #fafafa;
   border-radius: 2px;
@@ -111,264 +115,306 @@
   padding: 15px 13px;
 }
 
-/* line 84, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 101, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .contained {
   display: inline-block;
 }
 
-/* line 87, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 104, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .contained:nth-child(n) {
   width: fit-content;
 }
 
-/* line 94, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 111, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-15 {
   margin: 15px;
 }
 
-/* line 97, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 114, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-15 {
   margin-top: 15px;
 }
 
-/* line 100, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 117, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-15 {
   margin-bottom: 15px;
 }
 
-/* line 103, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 120, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-15 {
   margin-right: 15px;
 }
 
-/* line 106, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 123, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-15 {
   margin-left: 15px;
 }
 
-/* line 110, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 127, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-25 {
   margin: 25px;
 }
 
-/* line 113, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 130, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-25 {
   margin-top: 25px;
 }
 
-/* line 116, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 133, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-25 {
   margin-bottom: 25px;
 }
 
-/* line 119, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 136, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-25 {
   margin-right: 25px;
 }
 
-/* line 122, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 139, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-25 {
   margin-left: 25px;
 }
 
-/* line 126, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 143, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .m-50 {
   margin: 50px;
 }
 
-/* line 129, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 146, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mt-50 {
   margin-top: 50px;
 }
 
-/* line 132, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 149, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mb-50 {
   margin-bottom: 50px;
 }
 
-/* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 152, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .mr-50 {
   margin-right: 50px;
 }
 
-/* line 138, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 155, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .ml-50 {
   margin-left: 50px;
 }
 
-/* line 144, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 161, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-75 {
   width: 75%;
 }
 
-/* line 148, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 165, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-50 {
   width: 50%;
 }
 
-/* line 151, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 168, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .w-25 {
   width: 25%;
 }
 
-/* line 159, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 176, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .section-hr {
   margin: 20px 0;
 }
 
-/* line 163, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 181, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .visible-text {
   background: rgba(0, 0, 0, 0.5);
   padding: 8px 15px;
 }
 
-/* line 170, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 188, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .primary {
   color: #FF3533;
 }
 
-/* line 173, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 191, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .success {
   color: #0bd932;
 }
 
-/* line 176, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 194, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .failure {
   color: #cb442d;
 }
 
-/* line 179, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 197, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .info {
   color: #0bd3d9;
 }
 
-/* line 182, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 200, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .warning {
   color: #f4992e;
 }
 
-/* line 186, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 204, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-success {
   background: #0bd932;
 }
 
-/* line 189, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 207, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-failure {
   background: #cb442d;
 }
 
-/* line 192, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 210, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-info {
   background: #0bd3d9;
 }
 
-/* line 195, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 213, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .background-warning {
   background: #f4992e;
 }
 
-/* line 199, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 217, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success, .toggle.success {
   background: #fff;
   border-color: #0bd932;
   color: #0bd932;
 }
 
-/* line 204, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 222, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success:hover, .toggle.success:hover {
   background-color: #0bd932;
   color: #fff;
 }
 
-/* line 209, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 227, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning, .toggle.warning {
   background: #fff;
   border-color: #f4992e;
   color: #f4992e;
 }
 
-/* line 214, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 232, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning:hover, .toggle.warning:hover {
   background-color: #f4992e;
   color: #fff;
 }
 
-/* line 219, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 237, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure, .toggle.failure {
   background: #fff;
   border-color: #cb442d;
   color: #cb442d;
 }
 
-/* line 224, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 242, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure:hover, .toggle.failure:hover {
   background-color: #cb442d;
   color: #fff;
 }
 
-/* line 229, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 247, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info, .toggle.info {
   background: #fff;
   border-color: #0bd3d9;
   color: #0bd3d9;
 }
 
-/* line 234, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 252, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info:hover, .toggle.info:hover {
   background-color: #0bd3d9;
   color: #fff;
 }
 
-/* line 241, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 259, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success-inverse, .toggle.success.inverse {
   background: #0bd932;
   border-color: #0bd932;
   color: #fff;
 }
 
-/* line 246, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 264, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.success-inverse:hover, .toggle.success.inverse:hover {
   background: inherit;
   color: #0bd932;
 }
 
-/* line 251, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 269, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure-inverse, .toggle.failure-inverse {
   background: #cb442d;
   border-color: #cb442d;
   color: #fff;
 }
 
-/* line 256, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 274, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.failure-inverse:hover, .toggle.failure-inverse:hover {
   background: inherit;
   color: #cb442d;
 }
 
-/* line 261, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 279, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info-inverse, .toggle.info-inverse {
   background: #0bd3d9;
   border-color: #0bd3d9;
   color: #fff;
 }
 
-/* line 266, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 284, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.info-inverse:hover, .toggle.info-inverse:hover {
   background: inherit;
   color: #0bd3d9;
 }
 
-/* line 271, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 289, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning-inverse, .toggle.warning-inverse {
   background: #f4992e;
   border-color: #f4992e;
   color: #fff;
 }
 
-/* line 276, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
+/* line 294, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_helpers.scss */
 .btn.warning-inverse:hover, .toggle.warning-inverse:hover {
   background: inherit;
   color: #f4992e;
+}
+
+/* line 1, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_extends.scss */
+.btn, .btn-lg {
+  border: 1px solid #000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+/* line 8, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_extends.scss */
+.card-img, .card {
+  border: 1px solid #fafafa;
+  box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 415px;
+}
+
+/* line 15, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_extends.scss */
+.progress .progress-75, .progress .progress-50, .progress .progress-25 {
+  height: 25px;
+  padding: 0 4px 0 0;
+}
+
+/* line 20, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/helpers/_extends.scss */
+.progress-circle .progress-success-25, .progress-circle .progress-success-50, .progress-circle .progress-success-75, .progress-circle .progress-success-100, .progress-circle .progress-info-25, .progress-circle .progress-info-50, .progress-circle .progress-info-75, .progress-circle .progress-info-100, .progress-circle .progress-warning-25, .progress-circle .progress-warning-50, .progress-circle .progress-warning-75, .progress-circle .progress-warning-100, .progress-circle .progress-failure-25, .progress-circle .progress-failure-50, .progress-circle .progress-failure-75, .progress-circle .progress-failure-100 {
+  border: 5px solid #e1e1e1;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 75px;
+  height: 75px;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -649,7 +695,7 @@ a {
   padding: 5px 0 3px 0;
 }
 
-/* line 1, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress {
   border: 1px solid #e1e1e1;
   border-radius: 3px;
@@ -662,268 +708,144 @@ a {
   position: relative;
 }
 
-/* line 9, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 11, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress .progress-75 {
-  height: 25px;
-  padding: 0 4px 0 0;
   width: 75%;
 }
 
-/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 16, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress .progress-50 {
-  height: 25px;
-  padding: 0 4px 0 0;
   width: 50%;
 }
 
-/* line 19, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 21, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress .progress-25 {
-  height: 25px;
-  padding: 0 4px 0 0;
   width: 25%;
 }
 
-/* line 26, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 28, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle {
   color: black;
 }
 
-/* line 29, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 32, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle span {
   position: relative;
   top: 25px;
   left: 25px;
 }
 
-/* line 36, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 39, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-success-25 {
-  border: 5px solid #e1e1e1;
   border-left: 5px solid #0bd932;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 43, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-success-50 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #0bd932;
   border-left: 5px solid #0bd932;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 51, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 50, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-success-75 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #0bd932;
   border-left: 5px solid #0bd932;
   border-right: 5px solid #0bd932;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 60, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 56, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-success-100 {
-  border: 5px solid #e1e1e1;
   border: 5px solid #0bd932;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 69, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 62, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-info-25 {
-  border: 5px solid #e1e1e1;
   border-left: 5px solid #0bd3d9;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 76, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 66, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-info-50 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #0bd3d9;
   border-left: 5px solid #0bd3d9;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 84, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 71, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-info-75 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #0bd3d9;
   border-left: 5px solid #0bd3d9;
   border-right: 5px solid #0bd3d9;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 93, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 77, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-info-100 {
-  border: 5px solid #e1e1e1;
   border: 5px solid #0bd3d9;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 102, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 83, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-warning-25 {
-  border: 5px solid #e1e1e1;
   border-left: 5px solid #f4992e;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 109, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 87, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-warning-50 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #f4992e;
   border-left: 5px solid #f4992e;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 117, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 92, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-warning-75 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #f4992e;
   border-left: 5px solid #f4992e;
   border-right: 5px solid #f4992e;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 126, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 98, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-warning-100 {
-  border: 5px solid #e1e1e1;
   border: 5px solid #f4992e;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 104, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-failure-25 {
-  border: 5px solid #e1e1e1;
   border-left: 5px solid #cb442d;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 142, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 108, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-failure-50 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #cb442d;
   border-left: 5px solid #cb442d;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 150, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 113, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-failure-75 {
-  border: 5px solid #e1e1e1;
   border-bottom: 5px solid #cb442d;
   border-left: 5px solid #cb442d;
   border-right: 5px solid #cb442d;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
-/* line 159, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
+/* line 119, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_progress.scss */
 .progress-circle .progress-failure-100 {
-  border: 5px solid #e1e1e1;
   border: 5px solid #cb442d;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: 75px;
-  height: 75px;
 }
 
 /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn {
-  border: 1px solid #000;
-  border-radius: 2px;
-  display: inline-block;
   padding: 4px 10px;
   transition: 0.2s ease;
 }
 
-/* line 9, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
+/* line 7, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn:hover {
   background: #000;
   color: #fff;
 }
 
-/* line 16, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
+/* line 14, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn-lg {
-  border: 1px solid #000;
-  border-radius: 2px;
   font-size: 1.1em;
   padding: 8px 18px;
-  transition: 0.2s ease;
 }
 
-/* line 23, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
+/* line 19, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_buttons.scss */
 .btn-lg:hover {
   background: #000;
   color: #fff;
@@ -976,20 +898,6 @@ a {
   }
 }
 
-/* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
-.card-img {
-  border: 1px solid #fafafa;
-  box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -ms-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  width: 415px;
-}
-
 @media (max-width: 414px), (max-width: 768px) {
   /* line 2, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-img {
@@ -997,7 +905,7 @@ a {
   }
 }
 
-/* line 15, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 12, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .img img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1010,13 +918,13 @@ a {
 }
 
 @media (max-width: 414px), (max-width: 768px) {
-  /* line 15, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 12, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-img .img img {
     height: 110px;
   }
 }
 
-/* line 29, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 26, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .img span {
   background: rgba(0, 0, 0, 0.5);
   color: white;
@@ -1027,27 +935,27 @@ a {
   top: -85px;
 }
 
-/* line 40, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 37, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .body {
   margin-top: -35px;
   padding: 20px;
 }
 
-/* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 42, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .body h6 {
   float: left;
   width: 60%;
 }
 
 @media (max-width: 414px), (max-width: 768px) {
-  /* line 45, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 42, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-img .body h6 {
     float: none;
     width: 100%;
   }
 }
 
-/* line 57, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 54, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .body span {
   color: #949494;
   margin-top: 8px;
@@ -1056,59 +964,49 @@ a {
 }
 
 @media (max-width: 414px), (max-width: 768px) {
-  /* line 57, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 54, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-img .body span {
     float: none;
   }
 }
 
-/* line 70, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 67, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-img .body p {
   clear: both;
   margin-top: 40px;
 }
 
 @media (max-width: 414px), (max-width: 768px) {
-  /* line 70, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 67, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-img .body p {
     margin-top: 15px;
   }
 }
 
-/* line 83, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 80, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card {
-  border: 1px solid #fafafa;
-  box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -ms-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 0 12px -6px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -webkit-border-radius: 5px;
   padding: 20px;
-  width: 415px;
 }
 
 @media (max-width: 414px), (max-width: 768px) {
-  /* line 83, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 80, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card {
     width: 260px;
   }
 }
 
-/* line 95, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 89, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card span {
   color: #949494;
   font-size: .8em;
 }
 
-/* line 100, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 94, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card p {
   margin-top: 15px;
 }
 
-/* line 104, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 98, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card .toggle {
   box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.4);
@@ -1126,7 +1024,7 @@ a {
   width: 45px;
 }
 
-/* line 118, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 112, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card .toggle:hover {
   box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
@@ -1134,12 +1032,12 @@ a {
   -webkit-box-shadow: 0 0 13px -3px rgba(0, 0, 0, 0.3);
 }
 
-/* line 125, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 119, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .togglable {
   padding-bottom: 35px;
 }
 
-/* line 130, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 124, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .togglable .plus::after {
   content: '\002B';
   position: relative;
@@ -1147,7 +1045,7 @@ a {
   left: 0px;
 }
 
-/* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-grid {
   display: grid;
   grid-template-areas: 'card card card';
@@ -1156,7 +1054,7 @@ a {
 }
 
 @media (max-width: 1200px) {
-  /* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'card';
@@ -1164,25 +1062,25 @@ a {
 }
 
 @media (max-width: 768px), (max-width: 992px) {
-  /* line 141, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+  /* line 135, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
   .card-grid {
     grid-template-areas: 'card' 'card' 'card';
     grid-template-columns: 1fr;
   }
 }
 
-/* line 161, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 155, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-grid .card {
   grid-area: 'card';
 }
 
-/* line 165, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 159, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-grid .card .toggle {
   position: relative;
   top: 20px;
 }
 
-/* line 171, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
+/* line 165, /Users/blazerowland/Documents/Sites/Personal/blaze-ui/assets/scss/components/_card.scss */
 .card-grid .togglable {
   padding-bottom: inherit;
 }

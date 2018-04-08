@@ -1,9 +1,6 @@
 // Creates Card Component with Image
 .card-img {
-  border: 1px solid $off-white;
-  @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
-  @include border-radius(5px);
-  width: 415px;
+  @extend %card;
 
   // Changes Default Styling for Mobile Devices
   @media(max-width: $break-xs), (max-width: $break-sm) {
@@ -81,11 +78,8 @@
 
 // Sets Default Styling for Default Card Component
 .card {
-  border: 1px solid $off-white;
-  @include box-shadow(0, 0, 12px, -6px, rgba(0, 0, 0, 0.3));
-  @include border-radius(5px);
+  @extend %card;
   padding: 20px;
-  width: 415px;
 
   // Changes width of Card Component on Mobile Devices
   @media(max-width: $break-xs), (max-width: $break-sm) {
