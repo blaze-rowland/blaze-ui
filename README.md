@@ -24,6 +24,8 @@
 * March-4-2018 (Framework Started (not mobile-friendly yet))
 * March-5-2018 (Mobile Support)
 * March-5-2018 (Added Badges, Graphs, and Progress Bars/Circles)
+* April-6-2018 (Commented All SCSS Files for Easier Editing)
+* Apirl-7-2018 (Added Extends File to Simplify Customization &amp; Reduce Clutter)
 
 ----
 ## What's Used
