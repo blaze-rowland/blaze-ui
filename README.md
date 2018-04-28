@@ -26,6 +26,7 @@
 * March-5-2018 (Added Badges, Graphs, and Progress Bars/Circles)
 * April-6-2018 (Commented All SCSS Files for Easier Editing)
 * Apirl-7-2018 (Added Extends File to Simplify Customization &amp; Reduce Clutter)
+* April-28-2018 (Refactored Location of Files. Added Tools in Package.JSON for Easier Customization (contemplating refactor for BEM))
 
 ----
 ## What's Used
