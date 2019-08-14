@@ -1,4 +1,4 @@
-# Blaze-UI
+# Blaze-UI - Deprecated
 
 ----
 ## What is Blaze-UI
